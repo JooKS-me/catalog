@@ -10,7 +10,8 @@ output: {
 		releaseName:     "grafana"
 		values: {
 			service: {
-				type: "LoadBalancer"
+				type: "NodePort"
+				nodePort: "12345"
 			}
 		}
 	}

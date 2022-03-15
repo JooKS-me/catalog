@@ -27,6 +27,9 @@ output: {
 					"https://charts.kubevela.net/addons/dashboards/kubevela_core_monitoring.json",
 					"https://charts.kubevela.net/addons/dashboards/kubevela_application_logging.json",
 					"https://charts.kubevela.net/addons/dashboards/flux2/cluster.json", // fluxcd
+					if parameter["enableMulticluster"] {
+						"https://raw.githubusercontent.com/JooKS-me/grafana-registration/master/dashboards/kubevela_multicluster_monitoring.json",
+					}
 				]
 			}
 		},

@@ -27,7 +27,7 @@ output: {
 					"https://charts.kubevela.net/addons/dashboards/kubevela_core_monitoring.json",
 					"https://charts.kubevela.net/addons/dashboards/kubevela_application_logging.json",
 					"https://charts.kubevela.net/addons/dashboards/flux2/cluster.json", // fluxcd
-					"https://raw.githubusercontent.com/JooKS-me/grafana-registration/master/dashboards/kubevela_multicluster_monitoring.json",
+					"https://blog.jooks.cn/kubevela_multicluster_monitoring.json",
 				]
 			}
 		},

@@ -8,8 +8,8 @@ spec:
     - name: grafana-registration
       type: helm
       properties:
-        chart: grafana-registration
+        chart: chart
         version: 0.0.7
-        repoType: helm
-        url: https://charts.kubevela.net/addons
+        repoType: git
+        url: https://github.com/JooKS-me/grafana-registration
         releaseName: grafana-registration
